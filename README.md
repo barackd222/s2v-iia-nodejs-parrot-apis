@@ -1,8 +1,7 @@
 # s2v-iia-nodejs-parrot-apis
 s2v-iia-nodejs-parrot-apis
 
-1.	Create a project directory by running the following command:
-# Create a folder where you want to download the Rolling-spider NPM nodules
+1.	Create a folder where you want to download the Rolling-spider NPM nodules:
 
 mkdir s2v-iia-nodejs-parrot-apis && cd s2v-iia-nodejs-parrot-apis
 
