@@ -7,14 +7,15 @@ mkdir s2v-iia-nodejs-parrot-apis && cd s2v-iia-nodejs-parrot-apis
 
 
 2.	Install pre-requites (Bluetooth Noble pre-requites as https://github.com/sandeepmistry/noble#prerequisites ):
+
 sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev build-essential g++
 
 3.	Install the Rolling-Spider node module
+
 npm install rolling-spider
 
 
 If this completes successfully, continue with the supporting modules below:
-
 
 npm install temporal express
 
@@ -29,14 +30,17 @@ sudo apt-get install bluez-hcidump
 sudo hcidump -t -x
 
 5.	As indicated in bug https://github.com/voodootikigod/node-rolling-spider/issues/74  - If you get an error with your peripheral, go into lib/drone.js and add this line to 202
+
 this.ble.stopScanning();
 under
 this.peripheral = peripheral;
 
-6. Finally run: 
+6. Finally run your application: 
+
      node app  
+     
 // It will show you the port where it is running. Then just start calling its APIs.
 
 Any question or comment please drop an email.
 
-Thanks for watching!
+Enjoy!
