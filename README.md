@@ -56,7 +56,7 @@ this.peripheral = peripheral;
    node app  
    ```
      
-// It will show you the port where it is running. Then just start calling its APIs.
+It will show you the port where it is running. Then just start calling its APIs.
 
 Any question or comment please drop an email.
 
