@@ -1,7 +1,7 @@
 # s2v-iia-nodejs-parrot-apis
 s2v-iia-nodejs-parrot-apis
 
-Note: I did not include a package.json as there is  aknown bug when applying the rolling-spider libraries below. Instead follow the next 5 steps:
+Note: I did not include a package.json as there is a known bug when applying the rolling-spider libraries below. Instead follow the next 5 steps:
 
 
 1.	Create a folder where you want to download the Rolling-spider NPM nodules:
